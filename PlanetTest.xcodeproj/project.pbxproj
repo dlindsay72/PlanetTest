@@ -13,6 +13,7 @@
 		7BAAD10B1EAFE50900EAFEBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAAD1091EAFE50900EAFEBC /* Main.storyboard */; };
 		7BAAD10D1EAFE50900EAFEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAAD10C1EAFE50900EAFEBC /* Assets.xcassets */; };
 		7BAAD1101EAFE50900EAFEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAAD10E1EAFE50900EAFEBC /* LaunchScreen.storyboard */; };
+		7BAAD1181EAFF52100EAFEBC /* PlanetScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAAD1171EAFF52100EAFEBC /* PlanetScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7BAAD10C1EAFE50900EAFEBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BAAD10F1EAFE50900EAFEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BAAD1111EAFE50900EAFEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BAAD1171EAFF52100EAFEBC /* PlanetScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7BAAD1031EAFE50900EAFEBC /* AppDelegate.swift */,
 				7BAAD1051EAFE50900EAFEBC /* art.scnassets */,
 				7BAAD1071EAFE50900EAFEBC /* GameViewController.swift */,
+				7BAAD1171EAFF52100EAFEBC /* PlanetScene.swift */,
 				7BAAD1091EAFE50900EAFEBC /* Main.storyboard */,
 				7BAAD10C1EAFE50900EAFEBC /* Assets.xcassets */,
 				7BAAD10E1EAFE50900EAFEBC /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BAAD1081EAFE50900EAFEBC /* GameViewController.swift in Sources */,
+				7BAAD1181EAFF52100EAFEBC /* PlanetScene.swift in Sources */,
 				7BAAD1041EAFE50900EAFEBC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +277,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dreamerongo.PlanetTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -286,6 +291,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dreamerongo.PlanetTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
